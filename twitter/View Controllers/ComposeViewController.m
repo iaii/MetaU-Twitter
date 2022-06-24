@@ -21,6 +21,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+   // if([self textView:_composeTweet shouldChangeTextInRange:<#(NSRange)#> replacementText:<#(NSString *)#>]){
+        
+    }
+    
+
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text{
+    self.composeTweet.delegate = self;
+    // Set the max character limit
+    int characterLimit = 140;
+
+    // Construct what the new text would be if we allowed the user's latest edit
+    NSString *newText = [self.composeTweet.text stringByReplacingCharactersInRange:range withString:text];
+
+    // TODO: Update character count label
+    self.charCount.text = newText;
+
+    // Should the new text should be allowed? True/False
+    return newText.length < characterLimit;
 }
 
 /*

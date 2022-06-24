@@ -22,6 +22,8 @@
 		F5DDB77C286133110067C6C6 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDB77B286133110067C6C6 /* Tweet.m */; };
 		F5DDB77F286137030067C6C6 /* TweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDB77E286137030067C6C6 /* TweetCell.m */; };
 		F5DDB7822863BB480067C6C6 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDB7812863BB480067C6C6 /* ComposeViewController.m */; };
+		F5DDB785286513E40067C6C6 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDB784286513E40067C6C6 /* DetailsViewController.m */; };
+		F5DDB788286653980067C6C6 /* UITextViewCharCountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDB787286653980067C6C6 /* UITextViewCharCountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,10 @@
 		F5DDB77E286137030067C6C6 /* TweetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetCell.m; sourceTree = "<group>"; };
 		F5DDB7802863BB480067C6C6 /* ComposeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
 		F5DDB7812863BB480067C6C6 /* ComposeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		F5DDB783286513E40067C6C6 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		F5DDB784286513E40067C6C6 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		F5DDB786286653980067C6C6 /* UITextViewCharCountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextViewCharCountViewController.h; sourceTree = "<group>"; };
+		F5DDB787286653980067C6C6 /* UITextViewCharCountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextViewCharCountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,8 @@
 				6AD278D820BC4B950085BC29 /* AppDelegate.h */,
 				6AD278D920BC4B950085BC29 /* AppDelegate.m */,
 				6AD278DE20BC4B950085BC29 /* Main.storyboard */,
+				F5DDB786286653980067C6C6 /* UITextViewCharCountViewController.h */,
+				F5DDB787286653980067C6C6 /* UITextViewCharCountViewController.m */,
 				6AD278E120BC4B970085BC29 /* Assets.xcassets */,
 				6AD278E320BC4B970085BC29 /* LaunchScreen.storyboard */,
 				6AD278E620BC4B970085BC29 /* Info.plist */,
@@ -152,6 +160,8 @@
 				6AD2790520BCC0380085BC29 /* LoginViewController.m */,
 				6AD2790720BCC04D0085BC29 /* TimelineViewController.h */,
 				6AD2790820BCC04D0085BC29 /* TimelineViewController.m */,
+				F5DDB783286513E40067C6C6 /* DetailsViewController.h */,
+				F5DDB784286513E40067C6C6 /* DetailsViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -260,6 +270,7 @@
 			files = (
 				F5DDB77F286137030067C6C6 /* TweetCell.m in Sources */,
 				6AD278F320BCA6020085BC29 /* BDBOAuth1SessionManager+SFAuthenticationSession.m in Sources */,
+				F5DDB785286513E40067C6C6 /* DetailsViewController.m in Sources */,
 				F5DDB779286131980067C6C6 /* User.m in Sources */,
 				F5DDB7822863BB480067C6C6 /* ComposeViewController.m in Sources */,
 				6AD278E820BC4B970085BC29 /* main.m in Sources */,
@@ -267,6 +278,7 @@
 				6AD2790620BCC0380085BC29 /* LoginViewController.m in Sources */,
 				6AD278DA20BC4B950085BC29 /* AppDelegate.m in Sources */,
 				6AD278F620BCB68B0085BC29 /* APIManager.m in Sources */,
+				F5DDB788286653980067C6C6 /* UITextViewCharCountViewController.m in Sources */,
 				6AD2790920BCC04D0085BC29 /* TimelineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
